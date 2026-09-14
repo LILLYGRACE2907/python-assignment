@@ -1,0 +1,10 @@
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("AND =", a & b)
+print("OR =", a | b)
+print("XOR =", a ^ b)
+print("NOT of first number =", ~a)
+print("NOT of second number =", ~b)
+print("Left Shift of first number =", a << 1)
+print("Right Shift of first number =", a >> 1)
